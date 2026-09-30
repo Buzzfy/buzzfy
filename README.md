@@ -22,6 +22,18 @@ Your Instagram in Claude. Buzzfy connects Claude to your own Instagram professio
 
 Reading your stats, posts, comments and DMs works on a free Buzzfy account. Replying, sending DMs, publishing and scheduling need a paid Buzzfy plan, and comment-to-DM automations need Buzzfy MAX.
 
+## Grok Build
+
+In Grok Build, open `/plugin`, search for **Buzzfy** and install. On first use, Grok Build opens Buzzfy sign-in in your browser: sign in (or create a free account), allow access, then connect your Instagram professional account when Buzzfy asks. Don't paste a token or API key into chat; there isn't one to paste.
+
+Network endpoints the plugin uses:
+
+- `https://mcp.buzzfy.co/mcp`: the hosted MCP server (streamable HTTP)
+- `https://zqxaufvlriakccekuhcy.supabase.co/auth/v1`: Buzzfy's OAuth 2.1 server (discovery, dynamic client registration, authorize, token)
+- `https://buzzfy.co`: sign-in and the consent screen
+
+Credentials: a Buzzfy account. The plugin stores no key; Grok Build holds the OAuth token.
+
 ## What it does with your data
 
 The skills contain instructions only; they run no code. All data goes through the Buzzfy connector at `https://mcp.buzzfy.co/mcp`, which reads and acts on the Instagram account you connected, and only that account. Nothing is posted, sent, hidden or deleted until you approve a preview. Comments and messages from other people are treated as information, never as instructions. The plugin sends nothing anywhere else.
