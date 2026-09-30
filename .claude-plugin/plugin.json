@@ -10,6 +10,7 @@
   "homepage": "https://buzzfy.co/mcp",
   "repository": "https://github.com/Buzzfy/buzzfy",
   "license": "MIT",
+  "privacyPolicyUrl": "https://buzzfy.co/privacy-policy",
   "keywords": [
     "instagram",
     "reels",
