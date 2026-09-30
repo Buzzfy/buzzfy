@@ -97,7 +97,8 @@
           ]
         },
         "commerce": false,
-        "commerce_description": "Buzzfy doesn't sell anything inside ChatGPT."
+        "commerce_description": "Buzzfy doesn't sell anything inside ChatGPT.",
+        "demo_recording_url": "https://www.youtube.com/watch?v=V3YHQC5lQIs"
       },
       "publication": {
         "release_notes": "First release: read your Instagram stats, audience, comments and DMs; reply, send, publish and schedule after a preview you approve; comment-to-DM automations."
