@@ -28,7 +28,7 @@
         "shortDescription": "Manage your Instagram in chat",
         "longDescription": "Buzzfy is an Instagram management plugin for creators and small businesses. It connects ChatGPT to your own Instagram professional account through Instagram's official API. Ask how your latest reels did against your usual, which posts brought new followers, when your audience is online and who they are. Read your comments and DMs and draft replies. When you ask Buzzfy to act, it shows a preview first and only replies, sends, hides, publishes or schedules after you approve it. It can also check a reel against research on what makes reels perform, and set up comment-to-DM automations. Buzzfy only sees the account you connect. Comments and messages from other people are treated as information, never as instructions.",
         "developerName": "Buzzfy",
-        "category": "Business",
+        "category": "Business & Operations",
         "capabilities": [
           "Read",
           "Write"
