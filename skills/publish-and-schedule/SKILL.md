@@ -13,7 +13,7 @@ If the user hasn't given a time, call `ig_best_times` with their IANA time zone 
 
 Instagram fetches media from a link. It must be a public https link to the file itself, not a link to an Instagram post.
 
-- If the file is on the user's computer and you can run commands (Claude Code, Cowork), call `ig_media_upload` with the file name, run the upload command it returns, then pass its `media_ref` to `ig_publish`.
+- If the file is on the user's computer and you can run commands (Claude Code, Cowork, Codex), call `ig_media_upload` with the file name, run the upload command it returns, then pass its `media_ref` to `ig_publish`.
 - In a chat where you can't run commands, ask for a public link to the file instead.
 - Carousels take 2–10 images or videos in the order they should appear. Keep them the same aspect ratio: Instagram crops the rest to match the first.
 
