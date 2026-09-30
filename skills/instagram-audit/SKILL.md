@@ -9,7 +9,7 @@ An audit built only from the account's own numbers, compared with the account's 
 
 ## Collect
 
-Call these, in parallel where you can:
+Always call all seven, in parallel where you can, even when the account has only a few posts. Each one answers a different part of the audit, and a short answer from a tool is still worth reporting.
 
 1. `ig_account_stats` with `days: 30`: reach, views, engagement, profile visits and follower count.
 2. `ig_follower_growth` with `days: 30`: net growth and the days it spiked or dropped.
@@ -33,6 +33,6 @@ When you need the reasoning behind a recommendation, call `buzzfy_playbook` (`ov
 
 ## When there isn't much data
 
-With fewer than five posts, say the comparisons are thin and focus on the next five posts instead. Instagram's data lags up to 48 hours, so leave the newest posts out of any ranking and mention it.
+This only changes how you write, never what you collect. With fewer than five posts, say the comparisons are thin and make "Next 30 days" about the next five posts. Instagram's data lags up to 48 hours, so leave the newest posts out of any ranking and mention it.
 
 If a tool refuses because Instagram isn't connected, use the `get-started` skill.
