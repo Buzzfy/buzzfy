@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "buzzfy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Your Instagram in ChatGPT: see how your posts and reels did against your usual, read and answer comments and DMs, and publish or schedule posts after you approve a preview. Uses Buzzfy's MCP server, which reads your own Instagram professional account through Instagram's official API.",
   "author": {
     "name": "Buzzfy",
