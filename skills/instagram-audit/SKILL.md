@@ -1,6 +1,6 @@
 ---
 name: instagram-audit
-description: Audit the user's Instagram account with their real numbers. Use when the user asks for an Instagram audit or review, asks how their account or content is doing, which posts or reels work best and why, why their reach dropped, or what they should post next.
+description: A quick in-chat audit of the user's Instagram account with their real numbers. Use when the user asks for an Instagram audit or review, asks how their account or content is doing, which posts or reels work best and why, why their reach dropped, or what they should post next.
 ---
 
 # Instagram audit

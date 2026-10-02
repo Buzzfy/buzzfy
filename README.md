@@ -14,6 +14,16 @@ Your Instagram in Claude. Buzzfy connects Claude to your own Instagram professio
 | `publish-and-schedule` | "Schedule these three slides as a carousel for Thursday at 6pm." |
 | `get-started` | "Connect my Instagram" or "Buzzfy says I need to reconnect." |
 
+## Workflows
+
+Longer jobs you start yourself. They come from the Buzzfy connector, so they work with or without this plugin.
+
+| Workflow | Start it with | What you get |
+|---|---|---|
+| [Instagram audit report](https://buzzfy.co/workflows/instagram-audit) | `/mcp__buzzfy__instagram-audit` in Claude Code, or **+** → **Buzzfy** in Claude | A designed PDF report from your real numbers and a plan for this week. Takes about 5 minutes. |
+
+The `instagram-audit` skill is the quick version: a one-screen audit in chat, which Claude can start on its own.
+
 ## Set it up
 
 1. Install the plugin, then connect **Buzzfy** from the plugin's Connectors tab. It's the same connector as the Buzzfy listing in Claude's directory.
