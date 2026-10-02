@@ -8,21 +8,11 @@ Your Instagram in Claude. Buzzfy connects Claude to your own Instagram professio
 
 | Skill | Ask something like |
 |---|---|
-| `instagram-audit` | "Audit my Instagram: what worked this month and what should I post next?" |
+| `instagram-audit` | "Audit my Instagram." You get a designed PDF report from your real numbers and a plan for this week, in about 5 minutes. The same prompt as [buzzfy.co/workflows/instagram-audit](https://buzzfy.co/workflows/instagram-audit). |
 | `reel-checkup` | "Why did my last reel flop?" or "Check this opening line before I post." |
 | `answer-comments-and-dms` | "Which comments and DMs are still waiting for a reply?" |
 | `publish-and-schedule` | "Schedule these three slides as a carousel for Thursday at 6pm." |
 | `get-started` | "Connect my Instagram" or "Buzzfy says I need to reconnect." |
-
-## Workflows
-
-Longer jobs you start yourself. They come from the Buzzfy connector, so they work with or without this plugin.
-
-| Workflow | Start it with | What you get |
-|---|---|---|
-| [Instagram audit report](https://buzzfy.co/workflows/instagram-audit) | `/mcp__buzzfy__instagram-audit` in Claude Code, or **+** → **Buzzfy** in Claude | A designed PDF report from your real numbers and a plan for this week. Takes about 5 minutes. |
-
-The `instagram-audit` skill is the quick version: a one-screen audit in chat, which Claude can start on its own.
 
 ## Set it up
 
