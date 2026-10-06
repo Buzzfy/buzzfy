@@ -22,6 +22,10 @@ Your Instagram in Claude. Buzzfy connects Claude to your own Instagram professio
 
 Reading your stats, posts, comments and DMs works on a free Buzzfy account. Replying, sending DMs, publishing and scheduling need a paid Buzzfy plan, and comment-to-DM automations need Buzzfy MAX.
 
+## Cursor
+
+Open **Customize → Plugins**, search for **Buzzfy** in the Marketplace and install. The plugin adds the five skills above and the Buzzfy MCP server. Under **Customize → MCPs**, select **Authenticate** next to buzzfy: Cursor opens Buzzfy sign-in in your browser. Sign in (or create a free account), allow access, then connect your Instagram professional account when Buzzfy asks. There is no token or API key to paste.
+
 ## Grok Build
 
 In Grok Build, open `/plugin`, search for **Buzzfy** and install. On first use, Grok Build opens Buzzfy sign-in in your browser: sign in (or create a free account), allow access, then connect your Instagram professional account when Buzzfy asks. Don't paste a token or API key into chat; there isn't one to paste.
