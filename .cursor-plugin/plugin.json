@@ -1,5 +1,6 @@
 {
   "name": "buzzfy",
+  "displayName": "Buzzfy",
   "version": "1.1.0",
   "description": "Your Instagram in Cursor: audit your account, check reels against research on what performs, answer comments and DMs, and publish or schedule posts, including carousels. Uses Buzzfy's hosted MCP server, which reads your own Instagram professional account through Instagram's official API. Nothing is posted or sent until you approve a preview.",
   "author": {
@@ -10,11 +11,6 @@
   "repository": "https://github.com/Buzzfy/buzzfy",
   "license": "MIT",
   "logo": "assets/logo.png",
-  "mcpServers": {
-    "buzzfy": {
-      "url": "https://mcp.buzzfy.co/mcp"
-    }
-  },
   "keywords": [
     "instagram",
     "reels",
@@ -25,5 +21,7 @@
     "comments",
     "dms",
     "creators"
-  ]
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
 }
