@@ -15,9 +15,10 @@ STEP 1. CHECK THE CONNECTION
 Call ig_connection_status. If my Instagram isn't connected, call ig_connect, help me connect it, then carry on.
 
 STEP 2. UNDERSTAND MY NICHE
+- ig_reel_checkup (limit: 20): for every reel Buzzfy has already analysed, its tags include the reel's niche and topics. Keep this answer, you'll use it again in step 4.
 - ig_account_stats (days: 30): my bio and follower count.
 - ig_posts (kind: reels, buzzfy_trial_reels: exclude, limit: 30): my captions, to see what I actually post about.
-- From those, write my niche in one line, in plain words (for example "home workouts for busy mums", not just "fitness"). Show it to me and ask if it's right before you go on. If I correct it, use my words.
+- From those, write my niche in one line, in plain words (for example "home workouts for busy mums", not just "fitness"). The niches and topics on my analysed reels count most; my bio and captions fill the gaps. If a few reels are off-topic, leave them out of the niche and say so. Show it to me and ask if it's right before you go on. If I correct it, use my words.
 
 STEP 3. GET THE NICHE REPORT
 - Call buzzfy_niche_report with niche set to my niche in my words.
@@ -28,7 +29,7 @@ STEP 3. GET THE NICHE REPORT
 - The report already holds the patterns and the top 20 reels. Call buzzfy_niche_report_reels (report_id, page 1) only if you need more examples of one pattern.
 
 STEP 4. READ MY OWN REELS
-- ig_reel_checkup (limit: 20): my normal (median views and skip rate), every reel against it and, for each reel Buzzfy has already analysed, its tags: length, format, hook type and opening line, call to action, pace and first cut, talking to camera, words on screen and subtitles. The tags use the same names as the niche report, so compare them directly.
+- Use the ig_reel_checkup answer from step 2: my normal (median views and skip rate), every reel against it and, for each reel Buzzfy has already analysed, its tags: length, format, hook type and opening line, call to action, pace and first cut, talking to camera, words on screen and subtitles. The tags use the same names as the niche report, so compare them directly.
 - ig_post_stats on the same reels, in batches of up to 20: reach, shares, saves and average watch time.
 - For a reel without tags, tag what the data shows, with the report's names: the hook type of my caption's first line (say it's read from the caption, not the video), the call to action from the caption (none, follow, comment_keyword, save_or_share, link_in_bio, dm or question_to_comment), and the caption's length, question and comment keyword.
 - If most of my reels have no tags, ask me what only the video shows (my typical length, format, words on screen in the first second and how fast the first cut comes) in one short message of 3 or 4 quick questions, and offer "skip". Anything I skip is "not checked", never a guess.
