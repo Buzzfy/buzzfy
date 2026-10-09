@@ -1,8 +1,8 @@
 {
   "name": "buzzfy",
   "displayName": "Buzzfy",
-  "version": "1.1.0",
-  "description": "Your Instagram in Claude: audit your account, check reels against research on what performs, answer comments and DMs, and publish or schedule posts, including carousels. Uses the Buzzfy connector, which reads your own Instagram professional account through Instagram's official API.",
+  "version": "1.2.0",
+  "description": "Your Instagram in Claude: audit your account, see what goes viral in your niche, check reels against research on what performs, answer comments and DMs, and publish or schedule posts, including carousels. Uses the Buzzfy connector, which reads your own Instagram professional account through Instagram's official API.",
   "author": {
     "name": "Buzzfy",
     "url": "https://buzzfy.co"
