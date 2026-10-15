@@ -1,5 +1,7 @@
 # Buzzfy for Claude
 
+[![smithery badge](https://smithery.ai/badge/bugra/buzzfy)](https://smithery.ai/servers/bugra/buzzfy)
+
 ![Buzzfy](assets/icon.svg)
 
 Your Instagram in Claude. Buzzfy connects Claude to your own Instagram professional account through Instagram's official API, and this plugin adds skills that teach Claude how to use it well: audit your account with your real numbers, check reels against research on what performs, answer comments and DMs in your voice, and publish or schedule posts, including carousels.
