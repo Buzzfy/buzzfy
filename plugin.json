@@ -79,6 +79,18 @@
               "prompt": "When is my audience most active this week?",
               "tools_triggered": "ig_best_times",
               "expected_behavior": "Ranks days and hours from the account's own data, in the user's time zone, and says what data the ranking rests on."
+            },
+            {
+              "description": "What works in a niche, from Buzzfy's niche report.",
+              "prompt": "What kind of reels go viral in the fitness niche right now?",
+              "tools_triggered": "buzzfy_niche_report",
+              "expected_behavior": "Returns the fitness niche report: the hook types, formats and calls to action with their median plays, split between verified and smaller accounts, and the top reels with their hooks. The answer draws its own conclusions from those numbers and quotes other creators' hooks only as examples."
+            },
+            {
+              "description": "Find reference reels in Buzzfy's library.",
+              "prompt": "Find me a few well-performing reels about meal prep that talk to camera.",
+              "tools_triggered": "buzzfy_reel_search",
+              "expected_behavior": "Lists matching reels from Buzzfy's library with link, creator, public counts, hook rating, opening line and a short summary. They are presented as other creators' reels to learn from, not as the user's own."
             }
           ],
           "negative": [
@@ -101,7 +113,7 @@
         "demo_recording_url": "https://www.youtube.com/watch?v=V3YHQC5lQIs"
       },
       "publication": {
-        "release_notes": "First release: read your Instagram stats, audience, comments and DMs; reply, send, publish and schedule after a preview you approve; comment-to-DM automations."
+        "release_notes": "Adds Buzzfy's niche reports and reel library (search, reel breakdowns, similar reels), pausing or editing Buzzfy trial reels, and a niche-report skill. Write tools now describe their preview-then-approve flow in plain terms."
       }
     }
   }
