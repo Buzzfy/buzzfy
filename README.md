@@ -13,6 +13,8 @@ Your Instagram in Claude. Buzzfy connects Claude to your own Instagram professio
 | `instagram-audit` | "Audit my Instagram." You get a designed PDF report from your real numbers and a plan for this week, in about 5 minutes. The same prompt as [buzzfy.co/workflows/instagram-audit](https://buzzfy.co/workflows/instagram-audit). |
 | `niche-report` | "What goes viral in my niche, and what am I missing?" You get a designed PDF: what wins in your niche, what you already do, what you don't, and your mistakes. The same prompt as [buzzfy.co/workflows/niche-report](https://buzzfy.co/workflows/niche-report). |
 | `reel-checkup` | "Why did my last reel flop?" or "Check this opening line before I post." |
+| `reel-ideas` | "Give me reel ideas that already worked in my niche." You get 5 ideas for your account, each with 3 opening lines and the reel it builds on. The same prompt as [buzzfy.co/workflows/reel-ideas](https://buzzfy.co/workflows/reel-ideas). |
+| `move-comment-to-dm` | "Move my comment-to-DM automations to Buzzfy." Your keywords and messages are rebuilt on Buzzfy, tested and switched on without anyone getting two DMs. Needs Buzzfy MAX. The same prompt as [buzzfy.co/workflows/move-comment-to-dm](https://buzzfy.co/workflows/move-comment-to-dm). |
 | `answer-comments-and-dms` | "Which comments and DMs are still waiting for a reply?" |
 | `publish-and-schedule` | "Schedule these three slides as a carousel for Thursday at 6pm." |
 | `get-started` | "Connect my Instagram" or "Buzzfy says I need to reconnect." |
@@ -27,7 +29,7 @@ Reading your stats, posts, comments and DMs works on a free Buzzfy account. Repl
 
 ## Cursor
 
-Open **Customize → Plugins**, search for **Buzzfy** in the Marketplace and install. The plugin adds the six skills above and the Buzzfy MCP server. Under **Customize → MCPs**, select **Authenticate** next to buzzfy: Cursor opens Buzzfy sign-in in your browser. Sign in (or create a free account), allow access, then connect your Instagram professional account when Buzzfy asks. There is no token or API key to paste.
+Open **Customize → Plugins**, search for **Buzzfy** in the Marketplace and install. The plugin adds the eight skills above and the Buzzfy MCP server. Under **Customize → MCPs**, select **Authenticate** next to buzzfy: Cursor opens Buzzfy sign-in in your browser. Sign in (or create a free account), allow access, then connect your Instagram professional account when Buzzfy asks. There is no token or API key to paste.
 
 ## Grok Build
 
