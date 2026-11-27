@@ -19,11 +19,13 @@ Call ig_connection_status. If my Instagram isn't connected, call ig_connect, hel
 
 STEP 3. LIST THE POSTS
 Call ig_posts (kind: all, since: the first day of the period, limit: 50). If next_cursor comes back, call again with it until there is none. Keep every post and reel, with its date, format, caption and comment count. Skip posts with 0 comments. Keep trial reels, marked as trial reels, since their comments come from people who don't follow me yet.
+Add up the comment counts before you read anything. If they come to more than 1,500, that's more than one chat can hold: tell me, and offer a shorter period or reading the newest 300 comments per post with the report marked as sampled. Go with what I pick.
 
 STEP 4. READ EVERY COMMENT
 For each post with comments, call ig_comments (post: its id, limit: 100, include_replies: true). While scan_complete is false and next_cursor is set, call again with the same post and after: next_cursor. Don't use days here: an older comment on a post from the period still counts.
 - A post with more than 1,000 comments (a giveaway, say): read its newest 500, and say in the report that this post was sampled.
-- If a call says Instagram is rate-limiting, wait as long as it says and carry on. Never present a partial read as complete.
+- Sort each post's comments (step 5) as soon as you've read them and keep running counts, so you never need every comment at once.
+- If a call says Instagram is rate-limiting, wait as long as it says and carry on. If Buzzfy says there were too many requests in the last minute, wait a minute and carry on with the same calls, one post at a time: a call without post reads fewer comments per post, so don't switch to it. Never present a partial read as complete.
 - If commenter_identity is hidden, tell me once and show me reconnect_url: the analysis still works, but people can't be counted once.
 - For complaints and questions whose thread has more_replies, read the whole thread with ig_comments (comment_ids, up to 10 per call).
 - Keep a tally per post: Instagram's comments_total (it counts replies too) against the comments and replies you read.
